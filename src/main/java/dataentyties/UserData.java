@@ -7,8 +7,8 @@ import java.util.HashMap;
 public class UserData {
 
    /*
-   Keremchyk, I also really need your help with data parametrithations of my tests. My idea was to create different types of users with important data like age, curent_weight, target_weight, height, meal_plan_id, order_id
-   So I could write easy smoke tests to make sure that GET endpoints gives back consistent data. I know that people user DataProvider annotations for this in Java. But I coouldn't acess saved data in test. You can see commented tests in UserTests.class
+   Keremchyk, I also really need your help with data parametrisation of my tests. My idea was to create different types of users with important data like age, curent_weight, target_weight, height, meal_plan_id, order_id
+   So I could write easy smoke tests to make sure that GET endpoints gives back consistent data. I know that people user DataProvider annotations for this in Java. But I couldn't access saved data in test. You can see commented tests in UserTests.class
    */
 
 
