@@ -15,7 +15,7 @@ public class ProfileSummaryTests extends ApiWeb_BaseTest.BaseTest_WebAPI {
 
     /*
     Keremchyk, I need your help with how should I create a POST request for this payload. I don't understand what data structure should I pick.
-    Below in the test you can see how I did a payload with a small request load.
+    Below in the test you can see how I did a payload with a small request load. Probably, I need to use tool like this one https://www.baeldung.com/jackson-object-mapper-tutorial
 
    I need to send this payload to /profile-summary endpoint
     { "choices": [
@@ -105,7 +105,7 @@ public class ProfileSummaryTests extends ApiWeb_BaseTest.BaseTest_WebAPI {
     }
 
     @Test
-    public void createProfile() {
+    public void createProfile(){
 
     }
 }
